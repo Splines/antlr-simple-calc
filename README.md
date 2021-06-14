@@ -2,7 +2,7 @@
 
 Implemented using the **VisitorPattern** approach
 
-- See the Calc grammer [here](https://github.com/Splines/antlr-simple-calc/blob/main/src/main/antlr4/Calc.g4)
+- See the Calc grammar [here](https://github.com/Splines/antlr-simple-calc/blob/main/src/main/antlr4/Calc.g4)
 - See the Calc visitor [here](https://github.com/Splines/antlr-simple-calc/blob/main/src/main/java/CalcVisitor.java)
 
 ## ANTLR IntelliJ Plugin
