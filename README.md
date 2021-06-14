@@ -2,6 +2,9 @@
 
 Implemented using the **VisitorPattern** approach
 
+- See the Calc grammer [here](https://github.com/Splines/antlr-simple-calc/blob/main/src/main/antlr4/Calc.g4)
+- See the Calc visitor [here](https://github.com/Splines/antlr-simple-calc/blob/main/src/main/java/CalcVisitor.java)
+
 ## ANTLR IntelliJ Plugin
 If you use the great ANTLR IntelliJ Plugin, you should configure it like shown in the image below (under `Tools` -> `Configure ANTLR...`).
 
