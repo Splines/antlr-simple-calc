@@ -1,0 +1,13 @@
+grammar Calc;
+sum: product (PLUS product)*;
+product: numberExpr (MUL numberExpr)*;
+numberExpr:  unaryMinus? numericNode;
+numericNode: '(' sum ')' | number;
+number: NUMBER | PI;
+unaryMinus: UNARY_MINUS;
+UNARY_MINUS: '-';
+NUMBER: [0-9]+;
+PI: 'pi';
+MUL: '*';
+PLUS: '+';
+WS: [ \t\r\n]+ -> skip;

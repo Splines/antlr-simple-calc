@@ -1,0 +1,1 @@
+These scripts are not needed to successfully run this project. They are just in there if you want to use the command line instead to execute.
